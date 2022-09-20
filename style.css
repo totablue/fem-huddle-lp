@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(0, 37, 46);
+}
+
+/* Default HTML Components */
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    letter-spacing: 4%;
+    line-height: 1.5;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2%;
+}
+
+/* Nav Section Components */
+nav {
+    width: 330px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 97px;
+}
+
+.nav-cta {
+    border: 1px solid rgb(255, 143, 216);
+    border-radius: 50px;
+    color: rgb(255, 143, 216);
+    display: inline-block;
+    font-size: 10px;
+    padding: 7px 17px;
+}
+
+/* Hero Section Components */
+#hero {
+    text-align: center;
+    margin-top: 125px;
+}
+
+.section-content {
+    font-size: 13px;
+    line-height: 21px;
+    margin: 35px auto;
+    width: 290px;
+}
+
+.cta {
+    background-color: rgb(255, 82, 191);
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 52px;
+    padding: 16px 40px;
+}
+
+.hero-cta:hover,
+.hero-cta:focus {
+    background-color: rgb(255, 143, 216);
+}
+
+.hero-img {
+    margin-top: 103px;
+    width: 295px;
+}
+
+.hero-numbers {
+    display: flex;
+    flex-direction: column;
+    height: 365px;
+    justify-content: space-between;
+    margin: 125px auto 0;
+    text-align: left;
+    width: 155px;
+}
+
+.number img {
+    height: 27px;
+    width: 30px;
+}
+
+.number h3 {
+    font-size: 56px;
+    letter-spacing: 3%;
+}
+
+.number p {
+    font-size: 14px;
+    color: rgb(157, 162, 166);
+}
+
+/* First Content Section Components */
+#first-section {
+    text-align: center;
+}
+
+#first-section .top {
+    height: 150px;
+    background-image: url(./images/bg-section-top-mobile-1.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#first-section .content {
+    background-color: rgb(246, 251, 255);
+}
+
+#first-section img {
+    height: 210px;
+    margin-top: 75px;
+    margin-bottom: 85px;
+}
+
+#first-section p {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 25px auto 0px;
+    padding-bottom: 35px;
+    width: 305px;
+}
+
+#first-section .bottom {
+    background-image: url(./images/bg-section-bottom-mobile-1.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+}
+
+/* Second Content Section Components */
+#second-section {
+    text-align: center;
+    margin-top: 140px;
+}
+
+#second-section img {
+    height: 190px;
+    margin-bottom: 95px;
+}
+
+#second-section p {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 25px auto 0px;
+    width: 315px;
+}
+
+/* Third Content Section Component */
+#third-section {
+    text-align: center;
+    margin-top: 125px;
+}
+
+#third-section .top {
+    height: 150px;
+    background-image: url(./images/bg-section-top-mobile-2.svg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#third-section .content {
+    background-color: rgb(246, 251, 255);
+}
+
+#third-section img {
+    width: 270px;
+}
+
+#third-section p {
+    font-size: 14px;
+    letter-spacing: 0;
+    margin: 25px auto 0px;
+    padding-bottom: 60px;
+    width: 310px;
+}
+
+#third-section .bottom {
+    background-image: url(./images/bg-section-bottom-mobile-2.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+}
+
+/* Mid CTA Section */
+#mid-cta {
+    text-align: center;
+}
+
+#mid-cta .cta {
+    margin-top: 45px;
+}
+
+/* Custom HTML Components */
+.mobile-line-break {
+    display: block;
+}
