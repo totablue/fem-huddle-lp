@@ -214,6 +214,34 @@ nav {
     margin-top: 45px;
 }
 
+/* Footer Section */
+footer {
+    background-color: #00252e;
+    color: white;
+    position: relative;
+    margin-top: 305px;
+    padding-top: 63px;
+}
+
+footer::before {
+    content: "";
+    background-image: url(./images/bg-footer-top-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    height: 53px;
+    position: absolute;
+    top: -53px;
+    width: 100%;
+}
+
+footer .content,
+footer .company-info {
+    width: 320px;
+    margin: 0 auto;
+}
+
 /* Custom HTML Components */
 .mobile-line-break {
     display: block;
