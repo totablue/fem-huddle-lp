@@ -17,6 +17,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/5da99cbb43.js" crossorigin="anonymous"></script>
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
@@ -65,30 +67,36 @@
   </section>
 
   <section id="first-section">
-    <div class="top"></div>
     <div class="content">
       <img src="/images/illustration-grow-together.svg" alt="Illustration that represents two people growing together">
-      <h4>Grow Together</h4>
-      <p>Generate meaningful discussions with your audience and build a strong, loyal community.
-        Think of the insightful conversations you miss out on with a feedback form.</p>
+      <div class="content-text">
+        <h4>Grow Together</h4>
+        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+          Think of the insightful conversations you miss out on with a feedback form.</p>
+      </div>
     </div>
-    <div class="bottom"></div>
+
   </section>
 
   <section id="second-section">
-    <img src="/images/illustration-flowing-conversation.svg" alt="Illustration that shows a flowing converstaion">
-    <h4>Flowing Conversations</h4>
-    <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
-      just-in-time loading for a more natural flow.</p>
+    <div class="content">
+      <img src="/images/illustration-flowing-conversation.svg" alt="Illustration that shows a flowing converstaion">
+      <div class="content-text">
+        <h4>Flowing Conversations</h4>
+        <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have
+          just-in-time loading for a more natural flow.</p>
+      </div>
+    </div>
   </section>
 
   <section id="third-section">
-    <div class="top"></div>
     <div class="content">
       <img src="/images/illustration-your-users.svg" alt="Illustration that represents users">
-      <h4>Your Users</h4>
-      <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
-        once signed in to your app, your users can start chatting immediately.</p>
+      <div class="content-text">
+        <h4>Your Users</h4>
+        <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means,
+          once signed in to your app, your users can start chatting immediately.</p>
+      </div>
     </div>
     <div class="bottom"></div>
   </section>
@@ -99,34 +107,38 @@
   </section>
 
   <footer>
-    <div class="content">
-      <h4>NEWSLETTER</h4>
-      <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
-        send you spam or pass on your email address</p>
-      <input type="text" name="sub-input">
-      <a href="#">Subscribe</a>
-    </div>
-    <div class="company-info">
-      <h1>
-        <img src="/images/logo.svg" alt="Logo for Huddle">
-      </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
-        vestibulum a, ultrices quis sem.</p>
-      <ul class="contacts">
-        <li>
-          <img src="/images/icon-phone.svg" alt="Icon for phone">
-          Phone: +1-543-123-4567
-        </li>
-        <li>
-          <img src="/images/icon-email.svg" alt="Icon for email">
-          example@huddle.com
-        </li>
-      </ul>
-      <ul class="socials">
-        <li>Facebook</li>
-        <li>Instagram</li>
-        <li>Twitter</li>
-      </ul>
+    <div class="footer-content">
+      <div class="content">
+        <h4>NEWSLETTER</h4>
+        <p>To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
+          send you spam or pass on your email address</p>
+        <div class="subscribe">
+          <input class="sub-input" type="text" name="sub-input">
+          <a href="#">Subscribe</a>
+        </div>
+      </div>
+      <div class="company-info">
+        <h1>
+          <img src="/images/logo.svg" alt="Logo for Huddle">
+        </h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia
+          vestibulum a, ultrices quis sem.</p>
+        <ul class="contacts">
+          <li>
+            <img src="/images/icon-phone.svg" alt="Icon for phone">
+            Phone: +1-543-123-4567
+          </li>
+          <li>
+            <img src="/images/icon-email.svg" alt="Icon for email">
+            example@huddle.com
+          </li>
+        </ul>
+        <ul class="socials">
+          <li><i class="fa-brands fa-facebook fa-xl"></i></li>
+          <li><i class="fa-brands fa-instagram fa-xl"></i></li>
+          <li><i class="fa-brands fa-twitter fa-xl"></i></li>
+        </ul>
+      </div>
     </div>
   </footer>
 
